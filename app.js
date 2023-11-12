@@ -28,19 +28,19 @@ class App {
     if (getUser.password === password) {
       this.isAuthenticated = true;
       this.user = getUser;
-      User(getUser.name, getUser.email);
+      User(getUser.name, getUser.email, getUser.avatar);
     }
   }
 
   logout() {
     this.user = {};
-    User();
+    // User();
   }
 }
 
 const app = new App();
 const el = document.getElementById("root");
 
-app.login("Dorris_Emmerich66@hotmail.com", "tF_j7aQQue4RtWH");
+app.login("Lucinda12@hotmail.com", "vc1TVwuNtU4VZi5");
 
 console.log(app.isAuthenticated);
