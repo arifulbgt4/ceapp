@@ -29,6 +29,7 @@ class App {
       this.isAuthenticated = true;
       this.user = getUser;
       User(getUser.name, getUser.email, getUser.avatar);
+      Logout();
     }
   }
 
