@@ -29,7 +29,6 @@ class App {
       this.isAuthenticated = true;
       this.user = getUser;
       User(getUser.name, getUser.email, getUser.avatar);
-      Logout();
     }
   }
 
@@ -41,7 +40,6 @@ class App {
 
 const app = new App();
 const el = document.getElementById("root");
-
 
 app.login("Lucinda12@hotmail.com", "vc1TVwuNtU4VZi5");
 
