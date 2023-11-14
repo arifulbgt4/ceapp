@@ -1,0 +1,35 @@
+.loginBtn {
+    background-color: #35871c9a;
+    padding: 8px 32px;
+    border: #dfecea;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.loginBtn:hover {
+    color: #dfecea;
+    background-color: #1e5d209a;
+}
+
+.form {
+    width: 400px;
+    margin: auto;
+    background-color: #f2a8a8;
+    padding: 25px;
+}
+
+.form input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.tittle {
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #313131;
+}
