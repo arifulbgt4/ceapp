@@ -1,5 +1,6 @@
 function User(name, email, image) {
   const div = document.createElement("div");
+  div.setAttribute('class', 'profile');
   div.innerHTML = `
   <img src='${image}' />
         <h3>${name}</h3>
@@ -15,3 +16,4 @@ function User(name, email, image) {
 }
 
 app.logout();
+54
