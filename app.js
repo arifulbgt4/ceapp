@@ -41,24 +41,6 @@ class App {
 const app = new App();
 const el = document.getElementById("root");
 
-// app.login("Lucinda12@hotmail.com", "vc1TVwuNtU4VZi5");
+app.login("Lucinda12@hotmail.com", "vc1TVwuNtU4VZi5");
 
-// login form
-
-document.getElementById("loginForm").addEventListener("submit", (event) => {
-  event.preventDefault();
-
-  const email = document.getElementById("email").value;
-  const password = document.getElementById("password").value;
-
-  app
-    .login(email, password)
-    .then(() => {
-      alert("Login Successful");
-    })
-    .catch((error) => {
-      alert("Login Failed: " + error.message);
-    });
-});
-
-console.log(app.isAuthenticated);
+// console.log(app.isAuthenticated);

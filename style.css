@@ -1,68 +1,22 @@
-/* === Google Font === */
-
-@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700|Source+Sans+Pro:400,600,700&display=swap");
-
-/* === CSS Reset === */
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+input{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 85%;
 }
-
-:root {
-  /* === Color === */
-  --cl-blue-200: #eff6ff;
-  --cl-blue-400: #2563eb;
-  --cl-blue-600: #1d4ed8;
-  --cl-tin-800: #18181b;
-  --cl-tin-800: #18181b;
-  --cl-slate-50: #f8fafc;
+button{
+    background: #ddffdf;
+    border: none;
+    padding: 10px 15px;
+    border: 2px solid red;
+    font-weight: bold;
+    width: 90%;
 }
-/* === Body === */
-body {
-  font-family: "Source Sans Pro", sans-serif;
-  color: var(--cl-tin-800);
+.event-form{
+    background: burlywood;
+    padding: 10px;
+    width: 20%;  
 }
-
-/* === Form === */
-h2 {
-  text-align: center;
-  padding-bottom: 1.6rem;
-  font-weight: 600;
-}
-
-form {
-  background-color: var(--cl-blue-200);
-  padding: 1.6rem;
-  max-width: 300px;
-  margin: 0 auto;
-  border-radius: 10px;
-}
-.form-control {
-  margin-bottom: 20px;
-}
-label {
-  display: block;
-  margin-bottom: 5px;
-}
-input {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  margin-bottom: 1rem;
-}
-button[type="submit"] {
-  width: 100%;
-  padding: 0.8rem;
-  background-color: var(--cl-blue-400);
-  color: #fafafa;
-  border: none;
-  cursor: pointer;
-  box-sizing: border-box;
-  border-radius: 4px;
-}
-button[type="submit"]:hover {
-  background-color: var(--cl-blue-600);
+textarea{
+    width: 90%;
+    margin-bottom: 10px;
 }
