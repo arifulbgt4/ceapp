@@ -11,16 +11,17 @@
 <body>
     <div id="root">
     </div>
-    <div>
+    <div class="event-form">
         <form id="submit">
             <input id="inputName" type="text" placeholder="name"> <br/>
-            <input id="inputEmail" type="email" placeholder="email"> <br/>
-            <button id="btnSubmit" type="submit">Submit</button>
+            <textarea name="" id="myMessage" cols="30" rows="10"></textarea> <br/>
+            <button type="button" onclick="submitForm()">Submit</button>
         </form>
     </div>
 
     <script src="./app.js"></script>
     <script src="./userComponent.js"></script>
+    <script src="event-form.js"></script>
 </body>
 
-</html>
+</html> 
