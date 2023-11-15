@@ -8,15 +8,19 @@
     <link rel="stylesheet" href="./style.css" />
 </head>
 
-<body>
-    <div id="root">
-    </div>
-    <div class="event-form">
-        <form id="submit">
-            <input id="inputName" type="text" placeholder="name"> <br/>
-            <textarea name="" id="myMessage" cols="30" rows="10"></textarea> <br/>
-            <button type="button" onclick="submitForm()">Submit</button>
-        </form>
+  <body>
+    <!-- === Root Body === -->
+    <div id="root"></div>
+    <!-- === Form === -->
+    <div>
+      <form id="loginForm">
+        <h2>Login 🔐</h2>
+        <label for="email">Email</label>
+        <input id="email" type="text" placeholder="Enter you email" />
+        <label for="password">Password</label>
+        <input id="password" type="text" placeholder="Enter you password" />
+        <button id="submit" type="submit">Submit</button>
+      </form>
     </div>
 
     <script src="./app.js"></script>
