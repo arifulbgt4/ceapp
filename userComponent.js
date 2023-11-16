@@ -14,4 +14,4 @@ function User(name, email, image) {
   el.appendChild(div);
 }
 
-app.logout();
+
