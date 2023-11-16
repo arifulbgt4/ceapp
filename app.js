@@ -45,4 +45,4 @@ const el = document.getElementById("root");
 
 app.login("Lucinda12@hotmail.com", "vc1TVwuNtU4VZi5");
 
-console.log(app.isAuthenticated);
+// console.log(app.isAuthenticated);
