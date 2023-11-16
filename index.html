@@ -11,11 +11,33 @@
 <body>
     <div id="root">
         <div id="form"></div>
+        <div class="calender">
+          <div class="left">
+            <p id="date">01</p>
+            <p id="day">Saturday</p>
+          </div>
+          <div class="right">
+            <p id="month">January</p>
+            <p id="year">2022</p>
+          </div>
+        </div>
+    </div>
+    <div class="event-form">
+        <form id="submit">
+            <input id="inputName" type="text" placeholder="name"> <br/>
+            <textarea name="" id="myMessage" cols="30" rows="10"></textarea> <br/>
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
     </div>
 
     <script src="./app.js"></script>
     <script src="./userComponent.js"></script>
     <script src="./loginForm.js"></script>
+
+    <script src="event-form.js"></script>
+    <script src="./logOutComponent.js"></script>
+   <script src="./calender.js"></script>
+
 </body>
 
-</html>
+</html> 
