@@ -1,3 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#root{
+   width: 100%;
+   min-height: 100vh;
+   background-image: linear-gradient(40deg,#202020,tomato);
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white; 
+}
+.calender{
+    height: 200px;
+    width: 200px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.left,.right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    
+}
+.right{
+    width: 80%;
+    background: #f4351e;
+    display: flex;
+    flex-direction: column;
+    font-size: 60px;
+    
+}
+.left{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    padding: 12px;
+    margin: 2px;
+    
+}
+#date{
+    font-size: 80px;
+    line-height: 90px;
+}
+#month{
+   font-size: 20px;
+}
 input{
     margin-bottom: 10px;
     padding: 10px;
