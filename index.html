@@ -2,42 +2,33 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CEAPP</title>
-    <link rel="stylesheet" href="./style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CEAPP</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./HeaderComponent.css" />
+  <link rel="stylesheet" href="./CalendarWrapper.css" />
+  <link rel="stylesheet" href="./CalendarHeader.css" />
+  <link rel="stylesheet" href="./CalendarBody.css" />
+  <link rel="stylesheet" href="./Calender.css" />
+  <link rel="stylesheet" href="./Footer.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-    <div id="root">
-        <div id="form"></div>
-        <div class="calender">
-          <div class="left">
-            <p id="date">01</p>
-            <p id="day">Saturday</p>
-          </div>
-          <div class="right">
-            <p id="month">January</p>
-            <p id="year">2022</p>
-          </div>
-        </div>
-    </div>
-    <div class="event-form">
-        <form id="submit">
-            <input id="inputName" type="text" placeholder="name"> <br/>
-            <textarea name="" id="myMessage" cols="30" rows="10"></textarea> <br/>
-            <button type="button" onclick="submitForm()">Submit</button>
-        </form>
-    </div>
+  <div id="root"></div>
 
-    <script src="./app.js"></script>
-    <script src="./userComponent.js"></script>
-    <script src="./loginForm.js"></script>
+  <script src="./app.js"></script>
+  <script src="./HeaderComponent.js"></script>
+  <script src="./CalendarWrapper.js"></script>
+  <script src="./CalendarHeader.js"></script>
+  <script src="./CalendarBody.js"></script>
+  <script src="./Footer.js"></script>
 
-    <script src="event-form.js"></script>
-    <script src="./logOutComponent.js"></script>
-   <script src="./calender.js"></script>
 
 </body>
 
-</html> 
+</html>
