@@ -1,4 +1,4 @@
-.loginBtn {
+/* .loginBtn {
     background-color: #35871c9a;
     padding: 8px 32px;
     border: #dfecea;
@@ -26,13 +26,20 @@
     outline: none;
     border: none;
     border-radius: 5px;
-}
+} */
 
 .tittle {
     text-align: center;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: #313131;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }
+/* 
 *{
     margin: 0;
     padding: 0;
@@ -127,4 +134,4 @@ textarea{
 
 .btn:hover {
     background-color: #c8e1dd9a;
-}
+} */
